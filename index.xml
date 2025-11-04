@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>neonvoid dev blog</title>
+      <title>@neonvoid</title>
       <link>https://neonvoid.dev</link>
-      <description>Last 10 notes on neonvoid dev blog</description>
+      <description>Last 10 notes on @neonvoid</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>index</title>
     <link>https://neonvoid.dev/</link>
     <guid>https://neonvoid.dev/</guid>
     <description><![CDATA[ This is a test 6. ]]></description>
-    <pubDate>Tue, 04 Nov 2025 15:18:18 GMT</pubDate>
+    <pubDate>Tue, 04 Nov 2025 16:12:20 GMT</pubDate>
   </item>
     </channel>
   </rss>
