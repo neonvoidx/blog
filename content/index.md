@@ -5,5 +5,5 @@ tags: []
 description: neonvoid dev blog
 title: Home
 ---
-This is a test 6
+Welcome to my personal dev blog
 
