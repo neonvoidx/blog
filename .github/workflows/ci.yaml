@@ -1,0 +1,39 @@
+name: Publish Quartz site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Setup Hugo (Quartz is built on Hugo; change the version to match your Quartz/Hugo version)
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.115.0"
+          extended: true
+
+      # Install Node.js if Quartz requires any npm scripts (some themes/tools use npm)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22.16.0"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Quartz site
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./public
