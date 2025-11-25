@@ -2,7 +2,11 @@
 title: Secure Dual Boot
 description: How to secure dual boot with Windows and Linux
 pubDate: Sept 2 2025
-tags: linux
+tags:
+  - linux
+  - uefi
+  - gaming
+  - windows
 ---
 ### How to secure boot when dual booting (i.e Linux and Windows)
 
@@ -64,4 +68,6 @@ Most of the steps here I stole from a Reddit post a long time ago and stashed in
 Congratulations 🎉️,
 
 you should now have secure boot working with dual booting Windows and Linux! Enjoy your newfound security and peace of mind. Gone are the days of gaming FOMO with friends. Now to game with friends you just reboot into Windows in disgust every minute as you game until you go to sleep at 3AM and wake up the next day smiling as you boot back into Linux.
+
+# linux #windows #dual-boot #secure-boot #grub #sbctl #security #uefi
 
