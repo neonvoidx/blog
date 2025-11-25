@@ -2,6 +2,10 @@
 title: Moving to Stow from yadm
 description: Dotfile management with GNU Stow
 pubDate: Nov 22 2025
+tags:
+  - linux
+  - mac
+  - dotfiles
 ---
 ## Why?
 

@@ -2,6 +2,7 @@
 title: Wayland Window Managers
 description: So which Wayland window manager are we using?
 pubDate: Nov 25 2025
+tags: linux
 ---
 ### Why oh why didn't *you* choose Hyprland?
 

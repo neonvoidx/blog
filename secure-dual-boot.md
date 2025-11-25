@@ -2,6 +2,7 @@
 title: Secure Dual Boot
 description: How to secure dual boot with Windows and Linux
 pubDate: Sept 2 2025
+tags: linux
 ---
 ### How to secure boot when dual booting (i.e Linux and Windows)
 
